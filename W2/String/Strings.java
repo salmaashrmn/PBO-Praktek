@@ -2,7 +2,11 @@
  * Nama: Salma Aulia Suherman
  * NIM: 201511060
  * Kelas: D32B Teknik Informatika
- * Menentukan tipe data primitif
+ * Membuat program yang menampilkan:
+ *   - String yang diinputkan 
+ *   - Menghitung panjang masing – masing string dan menjumlahkannya
+ *   - Membandingkan A dan B
+ *   - Merubah huruf pertama masing masing string menjadi kapital
  */
 
 package String;
