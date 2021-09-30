@@ -1,8 +1,10 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * Nama: Salma Aulia Suherman
+ * NIM: 201511060
+ * Kelas: D32B Teknik Informatika
+ * 
  */
+
 package Operators;
 
 import java.util.*;
@@ -15,6 +17,7 @@ public class Berhitung {
         String[] arr = operasi.split(" ");
         int a = Integer.parseInt(arr[0]);
         int b = Integer.parseInt(arr[2]);
+        if ((a>=1&&a<=1000)&&(b>=1&&b<=1000)){
         switch(arr[1]){
             case "+":
                 System.out.println(a+b);
@@ -32,6 +35,7 @@ public class Berhitung {
                 System.out.println(a%b);
                 break;
         }
+        }else System.out.println("A dan B tidak memenuhi syarat");
         }
     }
 }
