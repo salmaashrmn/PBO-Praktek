@@ -31,4 +31,3 @@ public class InputOutput2 {
         System.out.println("================================");  
     }
 }
-//55 menit
