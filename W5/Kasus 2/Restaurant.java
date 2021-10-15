@@ -43,7 +43,7 @@ public class Restaurant {
                     System.out.println("Sisa stok "+menuMakanan[i].getNama_makanan()+" yang tersedia: "+menuMakanan[i].getStok());
                 }
                 else System.out.println("Stok" + menuMakanan[i].getNama_makanan() + "tidak cukup !");
-            }else System.out.println("Makanan tidak tersedia");
+            }
 	}
     }
 }
