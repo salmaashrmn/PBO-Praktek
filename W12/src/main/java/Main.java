@@ -4,7 +4,7 @@ import java.io.*;
 import java.util.*;
 
 public class Main {
-    public static void main(String[] args) throws IOException{
+    public static void main(String[] args){
         Gson gson = new Gson();
         try{
             FileReader json = new FileReader("D:\\COOL YEAH\\Semester 3\\PBO\\Praktek\\Pertemuan12\\barang.json");
